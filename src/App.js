@@ -19,7 +19,8 @@ function App() {
           <Route path="/ChooseCatCategory" element={<ChooseCatCategory />} />
         </Routes>
       </Router>
-    </div>
+    </div> 
+    
   );
 }
 
