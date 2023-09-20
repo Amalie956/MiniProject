@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Mini projekt
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## I dette projekt indgår der
 
-In the project directory, you can run:
+- Komponenter
+- Hooks
+- Routing
+- Formularer og inputfelter
+- HTML & CSS
 
-### `npm start`
+Der mangler
+- Axios
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tilfældige billeder`
+Når man trykker på linket 'Random Cat Pictures' bliver der vist en knap 'Tilfældige kattebilleder'. Når man trykker på knappen bliver der vist forskellige kattebilleder ved brug af api'et 'https://api.thecatapi.com/v1/images/search' 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Knap
 
-### `npm test`
+<img src="https://github.com/Amalie956/MiniProject/assets/112120321/f7865948-0c06-416f-a5de-c09eb003d490" alt="billede" width="200"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Resultat
 
-### `npm run build`
+<img src="https://github.com/Amalie956/MiniProject/assets/112120321/9ccecbf8-e68d-483a-8f79-65a1da4c24d7" alt="billede" width="200"/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Vælge katte billeder efter kategori
+Når man trykker på linket 'Choose Cat Category' bliver der vist en knap 'Select category'. Når man trykker på dropdown menuen bliver der vist forskellige kategorier ved brug af api'et 'https://api.thecatapi.com/v1/images/search?category_ids=${categoryId}' 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Dropdown menu
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img src="https://github.com/Amalie956/MiniProject/assets/112120321/ec8a06f6-b93d-49d3-979b-58088e65dcd8" alt="billede2" width="200"/>
 
-### `npm run eject`
+Her har jeg valgt kategorien "space"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src="https://github.com/Amalie956/MiniProject/assets/112120321/e5bf2338-9e70-47f1-9325-bee8c53c8336" alt="billede2" width="400"/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Login og derefter uploade billede *Dette virker ikke helt endnu*
+Når man trykker på linket 'Login' bliver der vist to inputfelter, hvor man kan indtaste sit brugernavn og kodeord. Når man trykker på login bliver der vist to knapper: vælge sit billede og derefter uploade det ved brug af api'et 'https://api.thecatapi.com/v1/images/upload'
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Login
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="https://github.com/Amalie956/MiniProject/assets/112120321/4fb72b24-5f6c-4b9e-a512-3f3a6a06fd66" alt="billede2" width="400"/>
 
-## Learn More
+Upload billede
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="https://github.com/Amalie956/MiniProject/assets/112120321/6446b858-94f9-414a-89f3-544a76a883a9" alt="billede2" width="400"/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
