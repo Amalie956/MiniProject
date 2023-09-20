@@ -33,7 +33,7 @@ Dropdown menu
 
 Her har jeg valgt kategorien "space"
 
-<img src="https://github.com/Amalie956/MiniProject/assets/112120321/e5bf2338-9e70-47f1-9325-bee8c53c8336" alt="billede2" width="400"/>
+<img src="https://github.com/Amalie956/MiniProject/assets/112120321/e5bf2338-9e70-47f1-9325-bee8c53c8336" alt="billede2" width="200"/>
 
 ### 3. Login og derefter uploade billede *Dette virker ikke helt endnu*
 Når man trykker på linket 'Login' bliver der vist to inputfelter, hvor man kan indtaste sit brugernavn og kodeord. Når man trykker på login bliver der vist to knapper: vælge sit billede og derefter uploade det ved brug af api'et 'https://api.thecatapi.com/v1/images/upload'
