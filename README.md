@@ -1,9 +1,5 @@
-# Mini projekt
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## I dette projekt indgår der
-
+# Mini projekt - React Cat API
+### I dette projekt indgår der
 - Komponenter
 - Hooks
 - Routing
@@ -12,8 +8,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Der mangler
 - Axios
+- Props
+## Opgave beskrivelser
+### Forside
+<img src="https://github.com/Amalie956/MiniProject/assets/112120321/071968a1-be42-4109-8dc6-697d2faf79f2" alt="billede" width="400"/>
 
-### Tilfældige billeder`
+### 1. Tilfældige billeder
 Når man trykker på linket 'Random Cat Pictures' bliver der vist en knap 'Tilfældige kattebilleder'. Når man trykker på knappen bliver der vist forskellige kattebilleder ved brug af api'et 'https://api.thecatapi.com/v1/images/search' 
 
 Knap
@@ -24,7 +24,7 @@ Resultat
 
 <img src="https://github.com/Amalie956/MiniProject/assets/112120321/9ccecbf8-e68d-483a-8f79-65a1da4c24d7" alt="billede" width="200"/>
 
-### Vælge katte billeder efter kategori
+### 2. Vælge katte billeder efter kategori
 Når man trykker på linket 'Choose Cat Category' bliver der vist en knap 'Select category'. Når man trykker på dropdown menuen bliver der vist forskellige kategorier ved brug af api'et 'https://api.thecatapi.com/v1/images/search?category_ids=${categoryId}' 
 
 Dropdown menu
@@ -35,7 +35,7 @@ Her har jeg valgt kategorien "space"
 
 <img src="https://github.com/Amalie956/MiniProject/assets/112120321/e5bf2338-9e70-47f1-9325-bee8c53c8336" alt="billede2" width="400"/>
 
-### Login og derefter uploade billede *Dette virker ikke helt endnu*
+### 3. Login og derefter uploade billede *Dette virker ikke helt endnu*
 Når man trykker på linket 'Login' bliver der vist to inputfelter, hvor man kan indtaste sit brugernavn og kodeord. Når man trykker på login bliver der vist to knapper: vælge sit billede og derefter uploade det ved brug af api'et 'https://api.thecatapi.com/v1/images/upload'
 
 Login
